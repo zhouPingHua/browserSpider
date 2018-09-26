@@ -1,0 +1,69 @@
+﻿<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>工商银行(done)</title>
+</head>
+<h1>工商银行验证码加密@模板</h1>
+<label id="hackStr"></label>
+
+<body onload="pageOnload()">
+<script>
+    function getPassWord(ts) {
+        document.getElementById('requestTokenid').value = ts.toString();
+        /*
+         *  从提交的表单中获取加密后的参数
+         *  表单Action替换为当前页
+         *  onload事件中获取参数，并回调给winForm
+         */
+        document.inforForm.action = document.URL;
+        document.all.safeSubmit1.reset();
+        document.all.verifyCode.commitKeyPart(document.all.verifyCode);
+        document.all.verifyCode.commit(document.all.safeSubmit1);
+        document.all.safeSubmit1.submit(document.inforForm);
+    }
+    function pageOnload() {
+        var params = document.URL.split('?')[1] ? document.URL.split('?')[1] : "";
+        if (params.length > 0) {
+            document.getElementById("hackStr").innerText = params;
+        }
+    }
+</script>
+<form name="inforForm" method="get">
+    <input type="hidden" name="dse_sessionId" id="dse_sessionId" value="@dse_sessionId" />
+    <input type="hidden" name="requestTokenid" id="requestTokenid" value="@requestTokenid" />
+    <input type="hidden" name="dse_applicationId" value="-1" />
+    <input type="hidden" name="dse_operationName" value="epass_userVerifyStepOp" />
+    <input type="hidden" name="dse_pageId" value="6" />
+    <input type="hidden" name="isAsyncronizeSMS" value="0" />
+    <input type="hidden" name="tranFlag" value="5" />
+    <input type="hidden" name="randomId" id="randomId" value="@randomId">
+    <INPUT type="hidden" name="operationTimesFlag" value="">
+    <script>
+    var UniqueId = document.URL.substring(document.URL.indexOf("?")+1).split("=")[1];
+    document.getElementById('dse_sessionId').value = UniqueId;
+    document.getElementById('randomId').value = UniqueId;
+    document.write('<object id="verifyCode" codebase="/icbc/newperbank/AxSafeControls.cab#version=1,0,0,13" classid="CLSID:73E4740C-08EB-4133-896B-8D0A7C9EE3CD"'+
+            ' width=40 height=28 style="vertical-align:middle;">'+
+            '<param name="name" value="verifyCode">'+
+            '<param name="minLength" value="4">'+
+            '<param name="maxLength" value="4">'+
+            '<param name="rule" value="10111">'+
+            '<param name="UniqueID" id="UniqueID" value="'+UniqueId+'">'+
+            '<param name="IsPassword" value="true">'+
+            '<param name="prompttext" value=" ">'+
+            '<param name="prompttextcolor" value="0,0,0">'+
+            '<param name="backgroundcolor" value="255,255,255">'+
+            '<param name="isbordervisible" value="1">'+
+        '</object>');
+    </script>
+</form>
+<object id="safeSubmit1" codebase="/icbc/newperbank/AxSafeControls.cab#version=1,0,0,7" classid="CLSID:8D9E0B29-563C-4226-86C1-5FF2AE77E1D2"
+        height=0 width=0></object>
+<br>
+<div>
+    <button onclick="getPassWord('1487555854066-1247891593')">获取密文</button>
+</div>
+</body>
+
+</html>

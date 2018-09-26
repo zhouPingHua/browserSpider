@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="211134b3-76a9-48cc-ab71-a9b1a8c6b9d9" name="Default" comment="" />
+    <list default="true" id="211134b3-76a9-48cc-ab71-a9b1a8c6b9d9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/browser/src/main/resources/static/gongshang.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/browser/src/main/resources/static/gongshangCaptcha.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/browser/src/main/resources/static/minsheng.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/GongShangWebDrivehcTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/GongShangWebDrivehpTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/MingShengWebDriveTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/winio/target/classes/com/zph/crawler/winio/App.class" afterPath="$PROJECT_DIR$/winio/target/classes/com/zph/crawler/winio/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/winio/target/classes/com/zph/crawler/winio/handle/VirtualKeyBoard.class" afterPath="$PROJECT_DIR$/winio/target/classes/com/zph/crawler/winio/handle/VirtualKeyBoard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/winio/target/winio-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/winio/target/winio-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="crawlerBrowser.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,63 +37,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SpiderDemoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/service/impl/SpiderDemoImpl.java">
+      <file leaf-file-name="MingShengWebDriveTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/MingShengWebDriveTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/browser/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="394">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browser/src/main/resources/static/login.html">
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/bean/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/service/Spider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/api/DemoApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browser/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="580">
+              <caret line="135" column="45" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -97,31 +67,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/bean/Result.java">
+      <file leaf-file-name="SpiderDemoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/service/impl/SpiderDemoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-410">
-              <caret line="135" column="45" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
+            <state relative-caret-position="345">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HtmlExtractUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/util/HtmlExtractUtil.java">
+      <file leaf-file-name="gongshang.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/browser/src/main/resources/static/gongshang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1536658314345" expanded="true" signature="5376:5399" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GongShangWebDrivehcTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/GongShangWebDrivehcTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GongShangWebDrivehpTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/GongShangWebDrivehpTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShenZhengWebDriveTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/ShenZhengWebDriveTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/util/LibraryLoader.java">
+      <file leaf-file-name="Spider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/service/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/browser/src/main/resources/static/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -136,6 +152,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -179,6 +198,10 @@
         <option value="$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/ShenZhengWebDriveTest.java" />
         <option value="$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/service/impl/SpiderDemoImpl.java" />
         <option value="$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/api/DemoApi.java" />
+        <option value="$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/NongYeTest.java" />
+        <option value="$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/MingShengWebDriveTest.java" />
+        <option value="$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/GongShangWebDrivehpTest.java" />
+        <option value="$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/GongShangWebDrivehcTest.java" />
       </list>
     </option>
   </component>
@@ -203,9 +226,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -214,7 +238,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -232,9 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,6 +285,142 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="winio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="browser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -281,7 +439,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="browser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,6 +496,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlerBrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="browser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,40 +623,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawlerBrowser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawlerBrowser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="browser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -479,6 +663,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,11 +679,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects2\crawlerBrowser\browser\src\test\java\com\zph\crawler" />
+      <recent name="D:\IdeaProjects2\crawlerBrowser\browser\src\main\resources\static" />
       <recent name="D:\IdeaProjects2\crawlerBrowser\browser\src\main\resources" />
       <recent name="D:\IdeaProjects2\crawlerBrowser\browser\src\main\java\com\zph\crawler" />
       <recent name="D:\IdeaProjects2\crawlerBrowser\browser\lib" />
-      <recent name="D:\IdeaProjects2\crawlerBrowser\browser\src\main\resources\static" />
-      <recent name="D:\IdeaProjects2\crawlerBrowser\winio\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zph.crawler.util" />
@@ -511,27 +697,7 @@
       <recent name="D:\IdeaProjects2\crawlerBrowser\browser\src\main\resources\exe" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Start">
-    <configuration default="false" name="VirtualKeyBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zph.crawler.winio.handle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zph.crawler.winio.handle.VirtualKeyBoard" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="winio" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MingShengWebDriveTest">
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -572,14 +738,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="SpiderDemoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ShenZhengWebDriveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.zph.crawler.service.impl.*" />
+          <option name="PATTERN" value="com.zph.crawler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zph.crawler.service.impl.SpiderDemoImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.zph.crawler.ShenZhengWebDriveTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -592,14 +758,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ShenZhengWebDriveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="NongYeWebDriveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.zph.crawler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zph.crawler.ShenZhengWebDriveTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zph.crawler.NongYeWebDriveTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="browser" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MingShengWebDriveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zph.crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zph.crawler.MingShengWebDriveTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1040,19 +1226,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Start" />
-      <item index="1" class="java.lang.String" itemvalue="Application.VirtualKeyBoard" />
-      <item index="2" class="java.lang.String" itemvalue="Application.App" />
-      <item index="3" class="java.lang.String" itemvalue="Application.WebDriveTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SpiderDemoImpl" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ShenZhengWebDriveTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.App" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WebDriveTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ShenZhengWebDriveTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NongYeWebDriveTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.MingShengWebDriveTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ShenZhengWebDriveTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.App" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WebDriveTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SpiderDemoImpl" />
-        <item index="4" class="java.lang.String" itemvalue="Application.VirtualKeyBoard" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MingShengWebDriveTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NongYeWebDriveTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ShenZhengWebDriveTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.App" />
+        <item index="4" class="java.lang.String" itemvalue="Application.WebDriveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1076,15 +1262,18 @@
       <workItem from="1536307571365" duration="594000" />
       <workItem from="1536308173016" duration="117000" />
       <workItem from="1536308851451" duration="1697000" />
-      <workItem from="1536310947160" duration="6009000" />
+      <workItem from="1536310947160" duration="6478000" />
+      <workItem from="1536544708207" duration="3114000" />
+      <workItem from="1536561481487" duration="5545000" />
+      <workItem from="1537933148377" duration="257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27614000" />
+    <option name="totallyTimeSpent" value="36999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1918" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1095,14 +1284,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299025" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22877358" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23522596" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946351" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1113,6 +1301,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="101" y="100" width="1718" height="840" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1130,7 +1320,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1139,534 +1329,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/User32.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/User32Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/VirtualKeyMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/VKMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/server/selenium-server/1.0.3/selenium-server-1.0.3-sources.jar!/org/openqa/selenium/remote/DriverCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/server/selenium-server/1.0.3/selenium-server-1.0.3-sources.jar!/org/openqa/selenium/remote/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/server/selenium-server/1.0.3/selenium-server-1.0.3-sources.jar!/org/openqa/selenium/remote/SessionId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/server/selenium-server/1.0.3/selenium-server-1.0.3-sources.jar!/org/openqa/selenium/server/ApplicationRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.zph.crawler.browser:browser:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.zph.crawler.browser:browser:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="0.0" y="1788.4980594636845">com.zph.crawler.browser:browser:1.0-SNAPSHOT</node>
-            <node x="256.0" y="148.91472613035148">com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT</node>
-            <node x="574.5" y="0.0">com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT/com.youyu.financial.gjj:commons:jar:1.0-SNAPSHOT</node>
-            <node x="939.5" y="0.0">com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT/com.youyu.financial.gjj:commons:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:2.6</node>
-            <node x="600.5" y="148.91472613035148">com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT/net.java.dev.jna:jna:jar:4.5.1</node>
-            <node x="564.0" y="226.91472613035148">com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT/net.java.dev.jna:jna-platform:jar:4.5.1</node>
-            <node x="216.5" y="457.3816934223187">org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147</node>
-            <node x="518.5" y="306.49805946368474">org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147</node>
-            <node x="975.0" y="111.49805946368451">org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/ant:ant:jar:1.6.5</node>
-            <node x="922.0" y="189.4980594636845">org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/jetty:org.mortbay.jetty:jar:5.1.10</node>
-            <node x="917.5" y="267.4980594636845">org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/commons-logging:commons-logging:jar:1.0.4</node>
-            <node x="924.0" y="345.4980594636845">org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/commons-codec:commons-codec:jar:1.11</node>
-            <node x="948.0" y="423.4980594636845">org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/javax.servlet:servlet-api:jar:2.4</node>
-            <node x="937.5" y="501.4980594636846">org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/bouncycastle:bcprov-jdk15:jar:135</node>
-            <node x="558.0" y="496.3816934223187">org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.core:selenium-core:jar:1.0-20080914.225453</node>
-            <node x="184.0" y="1203.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE</node>
-            <node x="520.0" y="694.508633958634">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE</node>
-            <node x="921.5" y="579.4980594636846">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5</node>
-            <node x="1243.0" y="540.4980594636846">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
-            <node x="1272.0" y="618.4980594636846">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
-            <node x="902.5" y="657.4980594636846">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5</node>
-            <node x="896.5" y="735.4980594636846">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5</node>
-            <node x="855.0" y="813.4980594636846">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5</node>
-            <node x="508.5" y="969.4980594636846">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE</node>
-            <node x="910.5" y="891.4980594636846">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.31</node>
-            <node x="920.5" y="969.4980594636846">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.31</node>
-            <node x="886.5" y="1047.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.31</node>
-            <node x="539.0" y="1203.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final</node>
-            <node x="935.5" y="1125.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
-            <node x="936.0" y="1203.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-            <node x="950.5" y="1281.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="569.0" y="1359.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE</node>
-            <node x="938.0" y="1359.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE</node>
-            <node x="553.5" y="1515.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE</node>
-            <node x="946.0" y="1437.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE</node>
-            <node x="932.0" y="1515.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE</node>
-            <node x="920.5" y="1593.4980594636845">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE</node>
-            <node x="203.5" y="1788.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE</node>
-            <node x="567.0" y="1593.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot:jar:2.0.2.RELEASE</node>
-            <node x="509.5" y="1671.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.2.RELEASE</node>
-            <node x="506.5" y="1749.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE</node>
-            <node x="930.5" y="1671.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="1270.5" y="1671.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="939.0" y="1749.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
-            <node x="1287.0" y="1749.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
-            <node x="948.5" y="1827.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="534.0" y="1827.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
-            <node x="568.5" y="1905.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE</node>
-            <node x="952.5" y="1905.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE/org.springframework:spring-jcl:jar:5.0.6.RELEASE</node>
-            <node x="572.0" y="1983.4980594636845">org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
-            <node x="186.0" y="2451.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE</node>
-            <node x="549.5" y="2061.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.2.RELEASE</node>
-            <node x="492.0" y="2139.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.2.RELEASE</node>
-            <node x="575.5" y="2217.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
-            <node x="947.0" y="2178.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
-            <node x="1260.0" y="2178.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
-            <node x="1521.0" y="2178.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
-            <node x="957.5" y="2256.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="595.0" y="2295.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/junit:junit:jar:4.12</node>
-            <node x="568.0" y="2373.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
-            <node x="561.0" y="2451.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
-            <node x="943.5" y="2368.7480594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11</node>
-            <node x="918.0" y="2451.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11</node>
-            <node x="952.5" y="2568.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
-            <node x="557.0" y="2529.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="550.0" y="2607.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="574.5" y="2685.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
-            <node x="939.0" y="2685.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="571.0" y="2763.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-test:jar:5.0.6.RELEASE</node>
-            <node x="563.5" y="2841.4980594636845">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
-            <node x="196.0" y="2529.4980594636845">org.springframework.boot:spring-boot-devtools:jar:2.0.2.RELEASE</node>
-            <node x="247.0" y="2607.4980594636845">com.alibaba:fastjson:jar:1.2.28</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.2.RELEASE">
-              <point x="94.5" y="-9.5" />
-              <point x="412.0" y="1797.9980594636845" />
-              <point x="492.0" y="1690.4980594636845" />
-              <point x="-124.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3">
-              <point x="127.0" y="-12.666666666666742" />
-              <point x="775.0" y="1755.831392797018" />
-              <point x="855.0" y="1690.4980594636845" />
-              <point x="-78.5" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT" target="com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT/com.youyu.financial.gjj:commons:jar:1.0-SNAPSHOT">
-              <point x="42.0" y="-12.666666666666657" />
-              <point x="412.0" y="155.24805946368474" />
-              <point x="492.0" y="19.0" />
-              <point x="-59.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE">
-              <point x="114.0" y="7.599999999999909" />
-              <point x="492.0" y="1378.4980594636845" />
-              <point x="-64.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0">
-              <point x="112.0" y="-10.363636363636488" />
-              <point x="492.0" y="2236.4980594636845" />
-              <point x="-58.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE">
-              <point x="114.0" y="15.200000000000045" />
-              <point x="492.0" y="1534.4980594636845" />
-              <point x="-80.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0">
-              <point x="112.0" y="10.363636363636488" />
-              <point x="492.0" y="2704.4980594636845" />
-              <point x="-59.0" y="-0.0" />
-            </edge>
-            <edge source="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147" target="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/jetty:org.mortbay.jetty:jar:5.1.10">
-              <point x="115.0" y="-9.5" />
-              <point x="775.0" y="315.99805946368474" />
-              <point x="855.0" y="208.4980594636845" />
-              <point x="-87.0" y="-0.0" />
-            </edge>
-            <edge source="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147" target="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/commons-codec:commons-codec:jar:1.11">
-              <point x="115.0" y="3.1666666666666856" />
-              <point x="775.0" y="328.6647261303515" />
-              <point x="855.0" y="364.4980594636845" />
-              <point x="-85.0" y="-0.0" />
-            </edge>
-            <edge source="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147" target="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/commons-logging:commons-logging:jar:1.0.4">
-              <point x="115.0" y="-3.1666666666666856" />
-              <point x="775.0" y="322.331392797018" />
-              <point x="855.0" y="286.4980594636845" />
-              <point x="-91.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11">
-              <point x="72.5" y="-12.666666666666515" />
-              <point x="775.0" y="2457.831392797018" />
-              <point x="855.0" y="2387.7480594636845" />
-              <point x="-65.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0">
-              <point x="87.5" y="-9.5" />
-              <point x="1163.0" y="588.9980594636846" />
-              <point x="-99.0" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.browser:browser:1.0-SNAPSHOT" target="com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT">
-              <point x="52.0" y="-16.28571428571422" />
-              <point x="184.0" y="167.91472613035148" />
-              <point x="-42.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6">
-              <point x="72.5" y="12.666666666666515" />
-              <point x="775.0" y="2483.164726130351" />
-              <point x="855.0" y="2587.4980594636845" />
-              <point x="-56.5" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.browser:browser:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE">
-              <point x="52.0" y="-0.0" />
-              <point x="-94.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.2.RELEASE">
-              <point x="112.0" y="-13.818181818181984" />
-              <point x="-141.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1">
-              <point x="112.0" y="17.27272727272748" />
-              <point x="492.0" y="2860.4980594636845" />
-              <point x="-70.0" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT" target="com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT/net.java.dev.jna:jna-platform:jar:4.5.1">
-              <point x="42.0" y="12.666666666666657" />
-              <point x="412.0" y="180.58139279701822" />
-              <point x="492.0" y="245.91472613035148" />
-              <point x="-69.5" y="-0.0" />
-            </edge>
-            <edge source="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147" target="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147">
-              <point x="81.5" y="-9.5" />
-              <point x="412.0" y="466.8816934223187" />
-              <point x="492.0" y="325.49805946368474" />
-              <point x="-115.0" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT" target="com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT/net.java.dev.jna:jna:jar:4.5.1">
-              <point x="42.0" y="-0.0" />
-              <point x="-33.0" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.browser:browser:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE">
-              <point x="52.0" y="5.428571428571331" />
-              <point x="-112.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0">
-              <point x="127.0" y="-0.0" />
-              <point x="-70.0" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.browser:browser:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.28">
-              <point x="52.0" y="16.28571428571422" />
-              <point x="184.0" y="2626.4980594636845" />
-              <point x="-51.0" y="-0.0" />
-            </edge>
-            <edge source="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147" target="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/bouncycastle:bcprov-jdk15:jar:135">
-              <point x="115.0" y="15.833333333333314" />
-              <point x="775.0" y="341.331392797018" />
-              <point x="855.0" y="520.4980594636846" />
-              <point x="-71.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE">
-              <point x="114.0" y="-15.200000000000045" />
-              <point x="492.0" y="713.508633958634" />
-              <point x="-113.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/com.fasterxml:classmate:jar:1.3.4">
-              <point x="94.5" y="12.666666666666742" />
-              <point x="775.0" y="1235.1647261303515" />
-              <point x="855.0" y="1300.4980594636845" />
-              <point x="-58.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5">
-              <point x="113.5" y="4.75" />
-              <point x="775.0" y="718.258633958634" />
-              <point x="855.0" y="754.4980594636846" />
-              <point x="-112.5" y="-0.0" />
-            </edge>
-            <edge source="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147" target="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/ant:ant:jar:1.6.5">
-              <point x="115.0" y="-15.833333333333314" />
-              <point x="775.0" y="309.6647261303515" />
-              <point x="855.0" y="130.4980594636845" />
-              <point x="-34.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4">
-              <point x="82.0" y="-0.0" />
-              <point x="-37.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE">
-              <point x="94.5" y="-3.1666666666667425" />
-              <point x="412.0" y="1804.331392797018" />
-              <point x="492.0" y="1768.4980594636845" />
-              <point x="-127.0" y="-0.0" />
-            </edge>
-            <edge source="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147" target="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.core:selenium-core:jar:1.0-20080914.225453">
-              <point x="81.5" y="9.5" />
-              <point x="412.0" y="485.8816934223187" />
-              <point x="492.0" y="515.3816934223187" />
-              <point x="-75.5" y="-0.0" />
-            </edge>
-            <edge source="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147" target="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147/org.openqa.selenium.server:selenium-server-coreless:jar:1.0-20081010.060147/javax.servlet:servlet-api:jar:2.4">
-              <point x="115.0" y="9.5" />
-              <point x="775.0" y="334.99805946368474" />
-              <point x="855.0" y="442.4980594636845" />
-              <point x="-61.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5">
-              <point x="87.5" y="9.5" />
-              <point x="1163.0" y="607.9980594636846" />
-              <point x="1243.0" y="637.4980594636846" />
-              <point x="-70.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/javax.validation:validation-api:jar:2.0.1.Final">
-              <point x="94.5" y="-12.666666666666742" />
-              <point x="775.0" y="1209.831392797018" />
-              <point x="855.0" y="1144.4980594636845" />
-              <point x="-73.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.assertj:assertj-core:jar:3.9.1">
-              <point x="112.0" y="-3.454545454545496" />
-              <point x="492.0" y="2392.4980594636845" />
-              <point x="-65.5" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.browser:browser:1.0-SNAPSHOT" target="org.openqa.selenium.server:selenium-server:jar:1.0-20081010.060147">
-              <point x="52.0" y="-10.85714285714289" />
-              <point x="184.0" y="476.3816934223187" />
-              <point x="-81.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-test:jar:5.0.6.RELEASE">
-              <point x="112.0" y="13.818181818181984" />
-              <point x="492.0" y="2782.4980594636845" />
-              <point x="-62.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5">
-              <point x="113.5" y="-4.75" />
-              <point x="775.0" y="708.758633958634" />
-              <point x="855.0" y="676.4980594636846" />
-              <point x="-106.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5">
-              <point x="113.5" y="-14.25" />
-              <point x="775.0" y="699.258633958634" />
-              <point x="855.0" y="598.4980594636846" />
-              <point x="-87.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/junit:junit:jar:4.12">
-              <point x="112.0" y="-6.909090909090992" />
-              <point x="492.0" y="2314.4980594636845" />
-              <point x="-38.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5">
-              <point x="113.5" y="14.25" />
-              <point x="775.0" y="727.758633958634" />
-              <point x="-154.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final">
-              <point x="114.0" y="-0.0" />
-              <point x="-94.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="58.0" y="9.5" />
-              <point x="775.0" y="2245.9980594636845" />
-              <point x="855.0" y="2275.4980594636845" />
-              <point x="-51.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0">
-              <point x="112.0" y="-0.0" />
-              <point x="-72.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE">
-              <point x="114.0" y="-7.599999999999909" />
-              <point x="492.0" y="988.4980594636846" />
-              <point x="-125.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25">
-              <point x="127.0" y="12.666666666666742" />
-              <point x="775.0" y="1781.1647261303515" />
-              <point x="855.0" y="1846.4980594636845" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0">
-              <point x="70.0" y="-0.0" />
-              <point x="-55.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11">
-              <point x="72.5" y="-0.0" />
-              <point x="-91.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2">
-              <point x="94.5" y="3.1666666666667425" />
-              <point x="412.0" y="1810.6647261303515" />
-              <point x="492.0" y="1846.4980594636845" />
-              <point x="-99.5" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.browser:browser:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE">
-              <point x="52.0" y="-5.428571428571331" />
-              <point x="-114.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE">
-              <point x="80.0" y="-0.0" />
-              <point x="-77.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
-              <point x="64.5" y="-0.0" />
-              <point x="-71.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.31">
-              <point x="125.0" y="12.666666666666629" />
-              <point x="775.0" y="1001.1647261303513" />
-              <point x="855.0" y="1066.4980594636845" />
-              <point x="-122.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3">
-              <point x="78.5" y="-0.0" />
-              <point x="-71.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.yaml:snakeyaml:jar:1.19">
-              <point x="94.5" y="15.833333333333258" />
-              <point x="412.0" y="1823.331392797018" />
-              <point x="492.0" y="2002.4980594636845" />
-              <point x="-61.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1">
-              <point x="59.0" y="-0.0" />
-              <point x="-70.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3">
-              <point x="58.0" y="-9.5" />
-              <point x="775.0" y="2226.9980594636845" />
-              <point x="855.0" y="2197.4980594636845" />
-              <point x="-62.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.31">
-              <point x="125.0" y="-0.0" />
-              <point x="-88.5" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT/com.youyu.financial.gjj:commons:jar:1.0-SNAPSHOT" target="com.zph.crawler.winio:winio:jar:1.0-SNAPSHOT/com.youyu.financial.gjj:commons:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:2.6">
-              <point x="59.0" y="-0.0" />
-              <point x="-69.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE">
-              <point x="80.0" y="12.666666666666742" />
-              <point x="775.0" y="1547.1647261303515" />
-              <point x="855.0" y="1612.4980594636845" />
-              <point x="-88.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE/org.springframework:spring-jcl:jar:5.0.6.RELEASE">
-              <point x="65.0" y="-0.0" />
-              <point x="-56.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.2.RELEASE">
-              <point x="112.0" y="-17.27272727272748" />
-              <point x="492.0" y="2080.4980594636845" />
-              <point x="-84.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.31">
-              <point x="125.0" y="-12.666666666666629" />
-              <point x="775.0" y="975.831392797018" />
-              <point x="855.0" y="910.4980594636846" />
-              <point x="-98.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="112.0" y="3.454545454545496" />
-              <point x="492.0" y="2548.4980594636845" />
-              <point x="-76.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2">
-              <point x="62.0" y="-0.0" />
-              <point x="-82.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
-              <point x="112.0" y="6.909090909090992" />
-              <point x="492.0" y="2626.4980594636845" />
-              <point x="-83.5" y="-0.0" />
-            </edge>
-            <edge source="com.zph.crawler.browser:browser:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-devtools:jar:2.0.2.RELEASE">
-              <point x="52.0" y="10.85714285714289" />
-              <point x="-102.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
-              <point x="94.5" y="9.5" />
-              <point x="412.0" y="1816.9980594636845" />
-              <point x="492.0" y="1924.4980594636845" />
-              <point x="-65.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final">
-              <point x="94.5" y="-0.0" />
-              <point x="-73.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE">
-              <point x="80.0" y="-12.666666666666742" />
-              <point x="775.0" y="1521.831392797018" />
-              <point x="855.0" y="1456.4980594636845" />
-              <point x="-63.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot:jar:2.0.2.RELEASE">
-              <point x="94.5" y="-15.833333333333258" />
-              <point x="412.0" y="1791.6647261303515" />
-              <point x="492.0" y="1612.4980594636845" />
-              <point x="-66.5" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7196551724137931" x="249.0" y="430.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/browser/lib/selenium-server-standalone-3.0.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/Test.java" />
     <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/util/Start.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1700,16 +1362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/user32/Win32Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1754,7 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1762,7 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2208">
           <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1770,7 +1420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3634">
           <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1778,24 +1427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2737">
           <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10908#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5148#5149#0" expanded="false" />
-            <element signature="e#5184#5185#0" expanded="false" />
-            <element signature="e#6448#6449#0" expanded="false" />
-            <element signature="e#6487#6488#0" expanded="false" />
-            <element signature="e#6692#6693#0" expanded="false" />
-            <element signature="e#6767#6768#0" expanded="false" />
-            <element signature="e#7227#7228#0" expanded="false" />
-            <element signature="e#7305#7306#0" expanded="false" />
-            <element signature="e#7765#7766#0" expanded="false" />
-            <element signature="e#7844#7845#0" expanded="false" />
-            <element signature="e#8320#8321#0" expanded="false" />
-            <element signature="e#8401#8402#0" expanded="false" />
-            <element signature="e#9518#9519#0" expanded="false" />
-            <element signature="e#9562#9563#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1803,18 +1434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11454">
           <caret line="528" column="0" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28521#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#13096#13097#0" expanded="false" />
-            <element signature="e#13139#13140#0" expanded="false" />
-            <element signature="e#13445#13446#0" expanded="false" />
-            <element signature="e#13509#13510#0" expanded="false" />
-            <element signature="e#19932#19933#0" expanded="false" />
-            <element signature="e#19968#19969#0" expanded="false" />
-            <element signature="e#20001#20002#0" expanded="false" />
-            <element signature="e#20067#20068#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1822,58 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1817">
           <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23722#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2627#2628#0" expanded="false" />
-            <element signature="e#2667#2668#0" expanded="false" />
-            <element signature="e#2754#2755#0" expanded="false" />
-            <element signature="e#2798#2799#0" expanded="false" />
-            <element signature="e#4129#4130#0" expanded="false" />
-            <element signature="e#4188#4189#0" expanded="false" />
-            <element signature="e#4553#4554#0" expanded="false" />
-            <element signature="e#4596#4597#0" expanded="false" />
-            <element signature="e#5124#5125#0" expanded="false" />
-            <element signature="e#5192#5193#0" expanded="false" />
-            <element signature="e#6007#6008#0" expanded="false" />
-            <element signature="e#6089#6090#0" expanded="false" />
-            <element signature="e#6692#6693#0" expanded="false" />
-            <element signature="e#6779#6780#0" expanded="false" />
-            <element signature="e#7372#7373#0" expanded="false" />
-            <element signature="e#7460#7461#0" expanded="false" />
-            <element signature="e#8067#8068#0" expanded="false" />
-            <element signature="e#8157#8158#0" expanded="false" />
-            <element signature="e#8881#8882#0" expanded="false" />
-            <element signature="e#8949#8950#0" expanded="false" />
-            <element signature="e#10221#10222#0" expanded="false" />
-            <element signature="e#10289#10290#0" expanded="false" />
-            <element signature="e#11579#11580#0" expanded="false" />
-            <element signature="e#11647#11648#0" expanded="false" />
-            <element signature="e#12925#12926#0" expanded="false" />
-            <element signature="e#12993#12994#0" expanded="false" />
-            <element signature="e#14249#14250#0" expanded="false" />
-            <element signature="e#14297#14298#0" expanded="false" />
-            <element signature="e#14354#14355#0" expanded="false" />
-            <element signature="e#14400#14401#0" expanded="false" />
-            <element signature="e#15146#15147#0" expanded="false" />
-            <element signature="e#15205#15206#0" expanded="false" />
-            <element signature="e#15285#15286#0" expanded="false" />
-            <element signature="e#15343#15344#0" expanded="false" />
-            <element signature="e#16318#16319#0" expanded="false" />
-            <element signature="e#16363#16364#0" expanded="false" />
-            <element signature="e#17054#17055#0" expanded="false" />
-            <element signature="e#17109#17110#0" expanded="false" />
-            <element signature="e#19180#19181#0" expanded="false" />
-            <element signature="e#19227#19228#0" expanded="false" />
-            <element signature="e#20530#20531#0" expanded="false" />
-            <element signature="e#20595#20596#0" expanded="false" />
-            <element signature="e#20681#20682#0" expanded="false" />
-            <element signature="e#20746#20747#0" expanded="false" />
-            <element signature="e#22388#22389#0" expanded="false" />
-            <element signature="e#22424#22425#0" expanded="false" />
-            <element signature="e#23399#23400#0" expanded="false" />
-            <element signature="e#23434#23435#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1881,78 +1448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2027">
           <caret line="133" column="35" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/VirtualKeyBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1192">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/WinIo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/bean/Chanle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/WebDriveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="25" column="124" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding>
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/ShenZhengWebDriveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="52" column="13" selection-start-line="49" selection-start-column="12" selection-end-line="52" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/user32/Win32MessageConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1974,27 +1469,271 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/util/LibraryLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="437">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/user32/Win32Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/bean/Chanle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/WebDriveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="25" column="124" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/main/resources/static/minsheng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1656">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1536227000325" expanded="true" signature="8220:8235" ph="..." />
+            <marker date="1536227000325" expanded="true" signature="9791:9822" ph="..." />
+            <marker date="1536227000325" expanded="true" signature="11584:11602" ph="..." />
+            <marker date="1536227000325" expanded="true" signature="11849:11867" ph="..." />
+            <marker date="1536227000325" expanded="true" signature="12159:12177" ph="..." />
+            <marker date="1536227000325" expanded="true" signature="12376:12394" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/user32/Win32MessageConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/api/DemoApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/WinIo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/VirtualKeyMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#5746#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/User32Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/User32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53590">
+          <caret line="2407" column="20" selection-start-line="2407" selection-start-column="20" selection-end-line="2407" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#123952#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4677#4678#0" expanded="false" />
+            <element signature="e#4717#4718#0" expanded="false" />
+            <element signature="e#5690#5691#0" expanded="false" />
+            <element signature="e#5753#5754#0" expanded="false" />
+            <element signature="e#12762#12763#0" expanded="false" />
+            <element signature="e#12814#12815#0" expanded="false" />
+            <element signature="e#18445#18446#0" expanded="false" />
+            <element signature="e#18498#18499#0" expanded="false" />
+            <element signature="e#20391#20392#0" expanded="false" />
+            <element signature="e#20435#20436#0" expanded="false" />
+            <element signature="e#21625#21626#0" expanded="false" />
+            <element signature="e#21705#21706#0" expanded="false" />
+            <element signature="e#22450#22451#0" expanded="false" />
+            <element signature="e#22485#22486#0" expanded="false" />
+            <element signature="e#22736#22737#0" expanded="false" />
+            <element signature="e#22776#22777#0" expanded="false" />
+            <element signature="e#29126#29127#0" expanded="false" />
+            <element signature="e#29197#29198#0" expanded="false" />
+            <element signature="e#36057#36058#0" expanded="false" />
+            <element signature="e#36123#36124#0" expanded="false" />
+            <element signature="e#38033#38034#0" expanded="false" />
+            <element signature="e#38087#38088#0" expanded="false" />
+            <element signature="e#47179#47180#0" expanded="false" />
+            <element signature="e#47243#47244#0" expanded="false" />
+            <element signature="e#55441#55442#0" expanded="false" />
+            <element signature="e#55485#55486#0" expanded="false" />
+            <element signature="e#56078#56079#0" expanded="false" />
+            <element signature="e#56155#56156#0" expanded="false" />
+            <element signature="e#58122#58123#0" expanded="false" />
+            <element signature="e#58159#58160#0" expanded="false" />
+            <element signature="e#62501#62502#0" expanded="false" />
+            <element signature="e#62557#62558#0" expanded="false" />
+            <element signature="e#66098#66099#0" expanded="false" />
+            <element signature="e#66136#66137#0" expanded="false" />
+            <element signature="e#70390#70391#0" expanded="false" />
+            <element signature="e#70443#70444#0" expanded="false" />
+            <element signature="e#77881#77882#0" expanded="false" />
+            <element signature="e#77940#77941#0" expanded="false" />
+            <element signature="e#82257#82258#0" expanded="false" />
+            <element signature="e#82308#82309#0" expanded="false" />
+            <element signature="e#82612#82613#0" expanded="false" />
+            <element signature="e#82661#82662#0" expanded="false" />
+            <element signature="e#104316#104317#0" expanded="false" />
+            <element signature="e#104371#104372#0" expanded="false" />
+            <element signature="e#110837#110838#0" expanded="false" />
+            <element signature="e#110892#110893#0" expanded="false" />
+            <element signature="e#112984#112985#0" expanded="false" />
+            <element signature="e#113011#113012#0" expanded="false" />
+            <element signature="e#117534#117535#0" expanded="false" />
+            <element signature="e#117596#117597#0" expanded="false" />
+            <element signature="e#118046#118047#0" expanded="false" />
+            <element signature="e#118085#118086#0" expanded="false" />
+            <element signature="e#119097#119098#0" expanded="false" />
+            <element signature="e#119151#119152#0" expanded="false" />
+            <element signature="e#119800#119801#0" expanded="false" />
+            <element signature="e#119854#119855#0" expanded="false" />
+            <element signature="e#120123#120124#0" expanded="false" />
+            <element signature="e#120162#120163#0" expanded="false" />
+            <element signature="e#120530#120531#0" expanded="false" />
+            <element signature="e#120573#120574#0" expanded="false" />
+            <element signature="e#121368#121369#0" expanded="false" />
+            <element signature="e#121410#121411#0" expanded="false" />
+            <element signature="e#121825#121826#0" expanded="false" />
+            <element signature="e#121864#121865#0" expanded="false" />
+            <element signature="e#122286#122287#0" expanded="false" />
+            <element signature="e#122326#122327#0" expanded="false" />
+            <element signature="e#122756#122757#0" expanded="false" />
+            <element signature="e#122797#122798#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/handle/VirtualKeyBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winio/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winio/src/main/java/com/zph/crawler/winio/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/NongYeWebDriveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/browser/src/main/resources/static/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
+        <state relative-caret-position="645">
           <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/service/impl/SpiderDemoImpl.java">
+    <entry file="file://$PROJECT_DIR$/browser/src/main/resources/static/nongye.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="580">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/MingShengWebDriveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/bean/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="135" column="45" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2006,43 +1745,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/bean/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
-          <caret line="135" column="45" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/service/Spider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/api/DemoApi.java">
+    <entry file="file://$PROJECT_DIR$/browser/src/main/java/com/zph/crawler/service/impl/SpiderDemoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        <state relative-caret-position="345">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/browser/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/browser/src/main/resources/static/gongshang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1536658314345" expanded="true" signature="5376:5399" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/ShenZhengWebDriveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/browser/pom.xml">
+    <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/GongShangWebDrivehpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="207">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/src/test/java/com/zph/crawler/GongShangWebDrivehcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,118 @@
+﻿<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>工商银行(done)</title>
+</head>
+<h1>工商银行</h1>
+<label id="hackStr"></label>
+<body onload="pageOnload()">
+    <script>
+        var changeRules,rules,random,msgCode;
+        function getPassWord() {
+            document.getElementById("verifyCodeCn").value = msgCode;
+            document.getElementById("verifyCode").value = msgCode;
+            /*
+             *  从提交的表单中获取加密后的参数
+             *  表单Action替换为当前页
+             *  onload事件中获取参数，并回调给winForm
+             */
+            document.form1.action = document.URL;
+            document.all.safeSubmit1.reset();
+            document.all.PASSWORD_ID.commit(document.all.safeSubmit1);
+            document.all.safeSubmit1.submit(document.form1);
+
+        }
+        function pageOnload() {
+            var params = document.URL.split('?')[1] ? document.URL.split('?')[1] : "";
+            if (params.length > 0 && params.indexOf("ts")!=0){
+                document.getElementById("hackStr").innerText = params;
+            }else{
+	            //其他变动参数
+	            document.all.PASSWORD_ID.setChangeRules(changeRules);
+	            document.all.PASSWORD_ID.setRules(rules);
+	            
+	            try{
+	            document.all.PASSWORD_ID.setRandom(random);
+	            //此key不变
+	            document.all.PASSWORD_ID.setPublicKeyNew('896ea9606752a56e87f30362d852273d3192a2ec7e229015dad5db53bb55fa25ffc7e633d49aa5b4c05c16358b553a62bc10194159df07aa41506dd93e6f68b37b4f62302a0804eb5d2edd54d9b392d4e7fcdf0703601e824ff23876d99f73e4ea3059eda33786168a852f2e695df528eb3e9caf295dca06985cb145fb282c020b57fb4e7e26446b48bcea9ac2b60a249b4491215d35d7c38fb77751416e80288b4a3b76a8d55b4845be814466e5ae07b3aef97094279b1b531bc6a4b8ee63fad321634f8559cf08db337ed706945d178ef1a4f58fd9d9d38d87d078e5b0b6a5abe0eb3b600c6648dc0a69f31ad3e578db513da12818e59436913d899243c3a9||2E42217E840A81289AFD14F912EED3D65AA318D7866F0D8CD05EF149489FA7F3FCDCEB84EA09C123210B5D006AF04E239EC458FF0CF5088BBAFF5A5768FB36A9A466073E0EF42EC013DE2B340CC1071B445BE02ACA82718EEE9C0CFC8C6E21551220A4F0B516C8CE0E4AD250DC3FDAE6801A9679672F75E68C067C281D7A8F41A7894C4993C76D13D6EF283C33D42127ACE07BE3EAE50D9C88386EC9FD05C79BA1546E741384CC7B8579F1F4288B1DEA70F8EC00629F63D5CC169222C1A6BD4C3D2722E1946348192D7BA5EEDE8317D3555401D6CD405F7D49FA850DA2DAF6D69E60ABF412DB662B034FA83CD009163D9F875047F1A73488286CA4F86050F6D1');
+	
+	          	//硬件信息
+	            var jshwinfo = document.all.PASSWORD_ID.getHwInfo();
+	            document.getElementById("HWInfo").value = jshwinfo;
+	            }catch(e){}
+            }
+        }
+    </script>
+    <form name="form1" id="form1" onsubmit="checkFormValue();" action="servlet/com.icbc.inbs.servlet.ICBCINBSEstablishSessionServlet">
+        <input name="AutoVerify" id="AutoVerify" value="4">
+        <input name="requestChannelInput" id="requestChannelInput" value="302">
+        <input name="requestChannelzoneNo" id="requestChannelzoneNo" value="1001">
+        <input name="serviceId" id="serviceId" value="">
+        <input name="serviceIdInto" id="serviceIdInto" value="">
+        <input name="transData" id="transData" value="">
+        <input name="loginCardFlag" id="loginCardFlag" value="0">
+        <input name="ua" id="ua" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)">
+        <input name="language" id="language" value="zh-cn">
+        <input name="netType" id="netType" value="130">
+        <input name="randomId" id="randomId" value="@ts">
+        <input name="data" value="">
+        <input name="ComputID" value="10">
+        <input name="PlatFlag" value="0">
+        <input name="logonSrc" value="1">
+        <input name="serviceIdfirst" id="serviceIdfirst" value="">
+        <input name="orgurl" id="orgurl" value="0" />
+        <input name="APPNO" id="APPNO" value="80" />
+        <input name="ccsi" id="ccsi" value="" />
+        <input type="hidden" name="resolution" value="1366*768">
+        <input name="logonCardPass_cryptAlg" id="logonCardPass_cryptAlg" value="1">
+        <input type="hidden" id="HWInfo" name="HWInfo" value=" " />
+        <div class="login-panel">
+            <div class="form-area">
+                <div class="form-area-line" style="margin-bottom: 0px;">
+                    <div class="wrapper-obj">
+                        <div class="login_password" style="float: left;"></div>
+                        <div style="width: 230px; padding-top: 4px; float: left;">
+                            <script>
+                            var params = document.URL.substring(document.URL.indexOf("?")+1).split("&");
+                            var UniqueID = params[0].split("=")[1];
+                            msgCode = params[2].split("=")[1];
+                            var pa = params[1].split("=")[1].split("_");
+                            changeRules = pa[0];
+                            rules = pa[1];
+                            random = pa[2];
+                            document.getElementById("randomId").value = UniqueID;
+                            document.write('<object width="200" height="24" id="PASSWORD_ID" classid="CLSID:73E4740C-08EB-4133-896B-8D0A7C9EE3CD" codebase="/icbc/newperbank/AxSafeControls.cab#version=1,0,0,26"'+
+                                    'style="vertical-align: middle;">'+
+                                    '<param name="name" value="logonCardPass">'+
+                                    '<param name="minLength" value="4">'+
+                                    '<param name="maxLength" value="30">'+
+                                    '<param name="rule" value="10111">'+
+                                    '<param name="UniqueID" id="UniqueID" value="'+UniqueID+'">'+
+                                    '<param name="IsPassword" value="false">'+
+                                    '<param name="prompttext" value="登录密码">'+
+                                    '<param name="prompttextcolor" value="102,102,102">'+
+                                    '<param name="backgroundcolor" value="255,255,255">'+
+                                    '<param name="isbordervisible" value="0">'+
+                                    '<param name="CryptAlg" value="2">'+
+                                    '<param name="ruleName" value="ruleName">'+
+                                    '<param name="changeRuleName" value="changeRuleName">'+
+                                '</object>');
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="text" id="verifyCodeCn" name="verifyCodeCn" value="" maxlength="4" autocomplete="off" style="width:135px;" />
+        <input type="text" id="verifyCode" name="verifyCode" value="" maxlength="4" autocomplete="off" style="width:135px;" />
+    </form>
+    <object width="0" height="0" id="safeSubmit1" classid="CLSID:8D9E0B29-563C-4226-86C1-5FF2AE77E1D2" codebase="/icbc/newperbank/AxSafeControls.cab#version=1,0,0,12">
+            </object>
+    <br>
+    <div>
+        <button onclick="getPassWord('changeRules_rules_random')">获取密文</button>
+    </div>
+</body>
+
+</html>
